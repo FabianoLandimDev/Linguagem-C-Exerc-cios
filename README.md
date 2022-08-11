@@ -1,2 +1,2 @@
-# Linguagem_C_/Exercícios
- Meus repositórios Acadêmicos em Linguagem C
+# Linguagem C /Exercises
+ Meus Repositórios Acadêmicos em Linguagem C.
