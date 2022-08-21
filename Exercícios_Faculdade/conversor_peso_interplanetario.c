@@ -4,7 +4,7 @@
 
 # Nome_do _programa: Conversor de Peso Interplanetário
 #
-# site: https://github.com/FabianoLandimDev/Jogo-Dado
+# site: https://github.com/FabianoLandimDev/Exercícios_Faculdade
 #
 # Autor: Fabiano Landim <landimfabiano01@gmail.com>
 #
@@ -19,6 +19,7 @@
 # - Versão Inicial do Programa.
 #
 # Licença: MIT.
+
 
 int main(void)
 {
