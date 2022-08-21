@@ -2,6 +2,24 @@
 #include <stdlib.h>
 #include <locale.h>
 
+# Nome_do _programa: Conversor de Peso Interplanetário
+#
+# site: https://github.com/FabianoLandimDev/Jogo-Dado
+#
+# Autor: Fabiano Landim <landimfabiano01@gmail.com>
+#
+# Manutenção: Fabiano Landim <landimfabiano01@gmail.com>
+#
+# ESCOPO:
+# O Programa nada mais é que um conversor solicitado pr Professor para aplicação de conhecimento da linguagem C, em que se pede o valor do peso do usuário em kilogramas e solicita que o mesmo escolha um planeta para que ocorra o cálculo da pesagem do usuário segundo o planeta de escolha.
+#
+# Histórico:
+#
+# v1.0 2020-03-05, Fabiano Landim:
+# - Versão Inicial do Programa.
+#
+# Licença: MIT.
+
 int main(void)
 {
     setlocale(LC_ALL, "Portuguese");
@@ -18,7 +36,7 @@ int main(void)
 		printf("\nOk!!! Vamos Prossseguir\n");
 		printf("Informe o seu peso em kg:\n");
 		scanf("%f",&peso_terra);
-		printf("\nPerfeito!!! Escolha um número referente ao planeta desejado para saber o seu peso:\n");
+		printf("\nPerfeito!!! Escolha um número referente ao planeta desejado para saber o peso que você teria nesse planeta:\n");
 		printf("\n1>Mercúrio\n2>Vênus\n3>Terra\n4>Marte\n5>Júpter\n6>Saturno\n7>Urano\n8>Netuno\n9>Plutão.\n");
 		scanf("%d",&escolha);
 		switch(escolha){
